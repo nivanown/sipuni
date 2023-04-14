@@ -17,3 +17,4 @@ var swiper = new Swiper(".mov-slider", {
   centeredSlides: true,
   spaceBetween: 60,
 });
+
