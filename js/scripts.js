@@ -12,8 +12,8 @@ var swiper = new Swiper(".reviews-slider", {
 /*- mov-slider -*/
 var swiper = new Swiper(".mov-slider", {
   autoHeight: true,
-  loop: true,
   slidesPerView: "auto",
+  loop: true,
   centeredSlides: true,
   spaceBetween: 60,
   navigation: {
