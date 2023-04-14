@@ -333,9 +333,40 @@ body {
   margin: 0;
   }
 
+/* reviews-slider-wrap */
+.reviews-slider-wrap { 
+  position: relative;
+  max-width: 508px;
+  }
+
+.reviews-slider-wrap:before { 
+  position: absolute;
+  display: block;
+  width: 55px;
+  height: 52px;
+  right: 70px;
+  top: -37px;
+  background: url(../img/src/reviews-slider-top-dec.png) center no-repeat;
+  background-size: 100%;
+  content: "";
+  z-index: 10;
+  }
+
+.reviews-slider-wrap:after { 
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  left: 50px;
+  bottom: -10px;
+  background: url(../img/src/reviews-slider-bottom-dec.png) center no-repeat;
+  background-size: 100%;
+  content: "";
+  z-index: 10;
+  }
+
 /* reviews-slider */
 .reviews-slider { 
-  max-width: 508px;
   background: #161616;
   border-radius: 15px;
   }
