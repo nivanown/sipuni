@@ -16,5 +16,9 @@ var swiper = new Swiper(".mov-slider", {
   slidesPerView: "auto",
   centeredSlides: true,
   spaceBetween: 60,
+  navigation: {
+    nextEl: ".mov-slider .swiper-button-next",
+    prevEl: ".mov-slider .swiper-button-prev",
+  },
 });
 
