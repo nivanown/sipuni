@@ -133,7 +133,8 @@ hr {
 
 [class*=__container] {
   margin: 0 auto;
-  max-width: 1200px;
+  padding: 0 20px;
+  max-width: 1240px;
   }
 
 /* body */
@@ -207,7 +208,7 @@ body {
 
 .integration__list li { 
   position: relative;
-  margin: 0 0 21px;
+  margin: 0 0 10px;
   padding: 0 0 0 25px;
   font-size: 16px;
   font-weight: 500;
@@ -217,10 +218,10 @@ body {
 .integration__list li:before { 
   position: absolute;
   display: block;
-  width: 6px;
-  height: 6px;
-  top: 8px;
-  left: 8px;
+  width: 5px;
+  height: 5px;
+  top: 11px;
+  left: 10px;
   background: #fff;
   border-radius: 100%;
   content: "";
@@ -234,13 +235,13 @@ body {
 .integration__btn-panel { 
   display: flex;
   gap: 0 20px;
-  padding: 0 0 0 25px;
+  padding: 0 0 0 23px;
   }
 
 /* btn */
 .btn { 
   display: inline-block;
-  padding: 15px 23px;
+  padding: 16px 23px;
   min-width: 320px;
   vertical-align: top;
   color: #111;
@@ -299,8 +300,8 @@ body {
 .connection__col { 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0 118px;
-  padding: 0 66px 0 0;
+  gap: 0 55px;
+  /*padding: 0 66px 0 0;*/
   }
 
 /* connection__list */
@@ -312,7 +313,7 @@ body {
 .connection__list li { 
   position: relative;
   margin: 0 0 5px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 23px;
   font-size: 14px;
   line-height: 18.9px;
   }
@@ -322,8 +323,8 @@ body {
   display: block;
   width: 4px;
   height: 4px;
-  top: 8px;
-  left: 7px;
+  top: 10px;
+  left: 10px;
   background: #fff;
   border-radius: 100%;
   content: "";
@@ -336,6 +337,7 @@ body {
 /* reviews-slider-wrap */
 .reviews-slider-wrap { 
   position: relative;
+  margin: 80px 0 0;
   max-width: 508px;
   }
 
@@ -344,8 +346,8 @@ body {
   display: block;
   width: 55px;
   height: 52px;
-  right: 70px;
-  top: -37px;
+  right: 79px;
+  top: -36px;
   background: url(../img/src/reviews-slider-top-dec.png) center no-repeat;
   background-size: 100%;
   content: "";
@@ -357,8 +359,8 @@ body {
   display: block;
   width: 40px;
   height: 40px;
-  left: 50px;
-  bottom: -10px;
+  left: 55px;
+  bottom: -11px;
   background: url(../img/src/reviews-slider-bottom-dec.png) center no-repeat;
   background-size: 100%;
   content: "";
@@ -369,10 +371,6 @@ body {
 .reviews-slider { 
   background: #161616;
   border-radius: 15px;
-  }
-
-.reviews-slider_indent-top { 
-  margin: 80px 0 0;
   }
 
 .reviews-slider .swiper-button-next, 
@@ -435,7 +433,7 @@ body {
   display: block;
   margin: 0 0 20px;
   font-size: 8px;
-  line-height: 10px;
+  line-height: 8px;
   opacity: 0.6;
   }
 
@@ -478,6 +476,8 @@ body {
 /* connection__photo */
 .connection__photo { 
   margin: 0 0 78px;
+  max-width: 508px;
+  height: 269px;
   background: #161616;
   border-radius: 15px;
   }
@@ -488,7 +488,7 @@ body {
   object-fit: cover;
   }
 
-.connection p { 
+.connection__text { 
   font-size: 14px;
   line-height: 18.9px;
   }
@@ -512,8 +512,8 @@ body {
   display: block;
   width: 220px;
   height: 211px;
-  bottom: -50px;
-  left: 300px;
+  bottom: -54px;
+  left: 295px;
   background: url(../img/src/benefit__info-bg.png) center no-repeat;
   background-size: cover;
   content: "";
@@ -547,11 +547,15 @@ body {
   display: block;
   width: 267px;
   height: 292px;
-  top: 127px;
+  top: 130px;
   right: 300px;
   background: url(../img/src/reason__info-bg.png) center no-repeat;
   background-size: cover;
   content: "";
+  }
+
+.reason__info .info__item { 
+  min-height: 250px;
   }
 
 .reason__info .info__item:nth-child(3) { 
@@ -735,6 +739,7 @@ body {
   }
 
 .partners__big-title { 
+  margin: 0 0 67px;
   text-align: center;
   }
 
@@ -749,7 +754,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 287px;
   box-shadow: 0 0 0 0.5px #292929 inset;
   }
 
@@ -814,7 +819,13 @@ body {
   }
 
 /* tariffs__price */
+.tariffs__price { 
+  display: block;
+  margin: 0 0 3px;
+  }
+
 .tariffs__price span { 
+  margin: 0 5px 0 0;
   font-size: 60px;
   font-weight: 700;
   line-height: 66px;
@@ -852,7 +863,7 @@ body {
 
 /* info-list__list */
 .info-list__list { 
-  padding: 15px 0 0;
+  padding: 13px 0 0;
   }
 
 .info-list__list li { 
@@ -871,7 +882,7 @@ body {
   width: 4px;
   height: 4px;
   top: 8px;
-  left: 6px;
+  left: 8px;
   background: #fff;
   content: "";
   border-radius: 100%;
@@ -890,13 +901,13 @@ body {
 
 /* special-offer */
 .special-offer { 
-  padding: 160px 0 152px;
+  padding: 144px 0 152px;
   }
 
 /* tariff */
 .tariff { 
   text-align: center;
-  padding: 40px 40px 49px;
+  padding: 30px 40px 58px;
   background: url(../img/src/tariff-bg.png) left bottom no-repeat #161616;
   border-radius: 20px 20px 20px 0;
   box-shadow: 10px -10px 0 0 #40C9A4;
@@ -907,8 +918,10 @@ body {
   }
 
 .special-offer__info-list { 
+  position: relative;
   margin: 0 auto 40px;
   max-width: 435px;
+  left: -9px;
   text-align: left;
   }
 
