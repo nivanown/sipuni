@@ -20,5 +20,16 @@ var swiper = new Swiper(".mov-slider", {
     nextEl: ".mov-slider .swiper-button-next",
     prevEl: ".mov-slider .swiper-button-prev",
   },
+  breakpoints: {
+    0: {
+      spaceBetween: 60,
+    },
+    728: {
+      spaceBetween: 20,
+    },
+    1240: {
+      spaceBetween: 60,
+    },
+  },
 });
 
