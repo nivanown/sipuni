@@ -694,6 +694,11 @@ body {
   background: url(../img/bg/play.svg) center no-repeat;
   content: "";
   z-index: 3;
+  transition: .3s opacity;
+  }
+
+.mov-slider .swiper-slide-active .mov-slider__poster a:hover:before { 
+  opacity: 0.85;
   }
 
 .mov-slider__poster img { 
