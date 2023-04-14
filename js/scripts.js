@@ -22,12 +22,15 @@ var swiper = new Swiper(".mov-slider", {
   },
   breakpoints: {
     0: {
-      spaceBetween: 60,
+      centeredSlides: false,
+      spaceBetween: 10,
     },
     728: {
+      centeredSlides: true,
       spaceBetween: 20,
     },
     1240: {
+      centeredSlides: true,
       spaceBetween: 60,
     },
   },
